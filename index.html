@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            /* outline: 2px solid limegreen; */
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="hidden md:block bg-white bg-blend-lighten sticky top-0 z-50">
+        <div class="flex justify-between items-center px-10 py-5">
+            <div>
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex space-x-10 text-xl text-gray-700 cursor-pointer">
+                    <li>Services</li>
+                    <li>Technology</li>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="block md:hidden bg-white bg-blend-lighten sticky top-0 z-50">
+        <div class="flex justify-between items-center px-5 py-3">
+            <div>
+                <img class="w-32" src="./assets/logo.png" alt="">
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <main class="bg-[url('/assets/concept1.jpeg')] bg-cover w-full bg-no-repeat bg-center h-screen px-5 md:px-10">
+        <div class="md:w-1/2 pt-10 sm:pt-32 md:pt-40">
+            <h1 class="text-4xl md:text-7xl font-bold text-[#323336] w-full mb-3 md:mb-10">Imagine Innovate Create<span
+                    class="text-red-500">.</span></h1>
+            <div class="flex flex-col sm:flex-row">
+                <input class="w-full h-10 md:h-12 md:w-3/4 border-2 border-gray-400 rounded-md" type="text" name=""
+                    id="" placeholder="Enter Your Email">
+                <button
+                    class="bg-[#323336] text-white ml-0 mt-3 py-2 md:px-5 md:py-3 font-semibold rounded-md w-full md:w-1/4">Know
+                    more</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="p-10 py-28 md:px-40 md:py-40 bg-[#eeee]">
+        <div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
+                <h1 class="text-2xl md:text-4xl font-semibold underline underline-offset-8">Our Services</h1>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-mobile-alt text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Mobile & Web Development</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">Complete application development solutions for Android,
+                        iOS and web with scalable backends</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-tools text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Software development</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">We build customised software for small and medium
+                        businesses to serve tailored needs and make work easier</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-running text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Progressive Web Apps</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">Web based applications which behave like native
+                        applications without needing to install</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-edit text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">UI & Prototyping</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">Creating user interfaces and user experience with
+                        Google Material design principles and functional prototypes</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fab fa-react text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Android and iOS Native applications</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">We build highly scalable and performant RN-Redux apps
+                        with almost 90% common code for iOS and Android</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-shopping-cart text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">E-Commerce</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">Fully integrated mobile and web-based e-commerce
+                        solutions</p>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-5 mb-5">
+                        <i class="fas fa-industry text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Manufacturing Automation</h3>
+                    </div>
+                    <p class="text-base text-gray-500 font-base">Custom IoT solutions with BLE communication</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="p-5 md:px-40 md:py-20">
+            <h1 class="text-2xl md:text-4xl font-semibold underline underline-offset-8">Technologies</h1>
+            <div class="my-20 grid gap-10 md:gap-20">
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-android text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Android</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-apple text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">iOS</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <i class="fas fa-globe-africa text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">PWA</h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <i class="fas fa-globe-africa text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">PWA</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-react text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">ReactJS</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-react text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">React Native</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <i class="fas fa-cloud text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Next Js</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <img class="w-[30px]" src="./assets/ty.png" alt="">
+                        <h3 class="text-base font-semibold">TypeScript</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-angular text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">AngularJs</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-vuejs text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">VueJs</h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <i class="fab fa-vuejs text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">VueJs</h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <i class="fab fa-vuejs text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">VueJs</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-js-square text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Express</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-node-js text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">NodeJs</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <i class="fas fa-database text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">MongoDb</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <img class="w-[30px]" src="https://code-b.in/images/img/icon/GraphQL_Logo.svg.png" alt="">
+                        <h3 class="text-base font-semibold">Graph Ql</h3>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-connectdevelop" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Blockchain</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <img class="w-[30px]" src="https://code-b.in/images/img/icon/Hyperledger-Fabric.png" alt="">
+                        <h3 class="text-base font-semibold">Hyperledger <span class="hidden sm:block">Fabric</span></h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <i class="fas fa-database text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">MongoDb</h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <img class="w-[30px]" src="https://code-b.in/images/img/icon/GraphQL_Logo.svg.png" alt="">
+                        <h3 class="text-base font-semibold">Graph Ql</h3>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-aws" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">AWS</h3>
+                    </div>
+
+                    <div class="flex items-center space-x-5">
+                        <img class="w-[30px]" src="https://code-b.in/images/img/icon/Kubernetes-Logo.png" alt="">
+                        <h3 class="text-base font-semibold">Kubernetes</h3>
+                    </div>
+                    <div class="flex items-center space-x-5">
+                        <i class="fab fa-docker text-3xl" aria-hidden="true"></i>
+                        <h3 class="text-base font-semibold">Docker</h3>
+                    </div>
+                    <div class="flex items-center space-x-5 hidden">
+                        <img class="w-[30px]" src="https://code-b.in/images/img/icon/GraphQL_Logo.svg.png" alt="">
+                        <h3 class="text-base font-semibold">Graph Ql</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="grid grid-cols-2 md:grid-cols-4 my-20">
+            <div
+                class="bg-[url('/assets/Kobel.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/mullen.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/actic.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/Autodesk.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/botco.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/dwellcome.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/upwork.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/TechHr.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/helloyoga.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/Blue-Tokai.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/huddle.jpg')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+            <div
+                class="bg-[url('/assets/Disney.png')] bg-cover bg-center bg-no-repeat h-64 flex flex-col justify-around py-5">
+            </div>
+        </div>
+    </div>
+
+    <div class="p-10 md:px-40 md:py-20">
+        <div>
+            <h1 class="text-2xl md:text-4xl font-normal underline underline-offset-[20px] mb-10">Meet our <span
+                    class="font-semibold">Team</span></h1>
+            <p class="text-gray-500">We are a crazy bunch who scribble on bean bags, munch samosas, play poker and leg
+                cricket on weekends and work hard for our clients. There is no special chair for the Boss and every
+                designer here knows programming. We like being unconventional and innovative</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 mt-20 gap-10">
+            <div class="flex-col items-center">
+                <img class="m-auto" src="./assets/Manas.png" alt="">
+                <h2 class="text-xl text-center mt-5">Manas <span class="font-semibold">Usharia</span></h2>
+                <p class="text-center text-sm text-gray-600">CEO</p>
+            </div>
+            <div class="flex-col items-center">
+                <img class="m-auto" src="./assets/Nitin.png" alt="">
+                <h2 class="text-xl text-center mt-5">Nitin Singh <span class="font-semibold">Solanky</span></h2>
+                <p class="text-center text-sm text-gray-600">Lead Full Stack Engineer</p>
+            </div>
+            <div class="flex-col items-center">
+                <img class="m-auto" src="./assets/Dimple.png" alt="">
+                <h2 class="text-xl text-center mt-5">Dimple <span class="font-semibold">Gangwani</span></h2>
+                <p class="text-center text-sm text-gray-600">Project Director</p>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around mt-5 gap-10">
+            <div class="flex-col items-center">
+                <img class="m-auto" src="./assets/Altmesh.png" alt="">
+                <h2 class="text-xl text-center mt-5">Altamesh <span class="font-semibold">Khan</span></h2>
+                <p class="text-center text-sm text-gray-600">Chief Creative Artist</p>
+            </div>
+            <div class="flex-col items-center">
+                <img class="m-auto" src="./assets/Shivani.png" alt="">
+                <h2 class="text-xl text-center mt-5">Shivani <span class="font-semibold">Subnani</span></h2>
+                <p class="text-center text-sm text-gray-600">Front-End Engineer</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="p-16 md:px-40 md:py-20 bg-[#eeee]">
+        <div class="flex flex-col md:flex-row justify-around gap-10 md:gap-0">
+            <div class="md:w-1/2">
+                <div class="flex space-x-5">
+                    <i class='far fa-map text-3xl'></i>
+                    <div class="flex-col">
+                        <h2 class="text-xl font-semibold">Address</h2>
+
+                        <p class="text-sm">Code-Bin, Plot No. 4, S.No. 131/1A/1, Mahavir Park, Baner Mahalunge Road,
+                            opp.Orchid School, Baner,
+                            Pune – 411045</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex space-x-5">
+                    <i class="fa fa-envelope text-3xl"></i>
+                    <div class="flex-col">
+                        <h2 class="text-xl font-semibold">Email</h2>
+                        <p class="text-sm">manas@code-b.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
